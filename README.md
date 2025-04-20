@@ -18,6 +18,8 @@
 - anchor will  generates a json file with IDL(Interface defination language)
 - you typically use snake_case for function names in rust but compiler will convert it to camelCase in the IDL(JSON) file.
 - we can use the IDL file to interact with our program from our frontend. as seen in the test. 
+- if struct have a #[derive(Accounts)] then it is an account. and any value with Signer<'info> is a signer and will get added to the accounts array in the IDL file. Still not sure about this.
+
 ## setup 
 
 Genrate a new keypair for the local validator

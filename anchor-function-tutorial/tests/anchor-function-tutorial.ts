@@ -10,32 +10,7 @@ describe("anchor-function-tutorial", () => {
 
   it("Call boaty mcboatface", async () => {
     // Add your test here.
-    const tx = await program.methods.boatyMcBoatface("hello").rpc();
-    console.log("Your transaction signature", tx);
-  });
-
-  it("Should add", async () => {
-    const tx = await program.methods.add(new anchor.BN(2), new anchor.BN(2)).rpc();
-    console.log("Your transaction signature", tx);
-  });
-
-  it("Should sub", async () => {
-    const tx = await program.methods.sub(new anchor.BN(2), new anchor.BN(2)).rpc();
-    console.log("Your transaction signature", tx);
-  });
-
-  it("Should mul", async () => {
-    const tx = await program.methods.mul(new anchor.BN(2), new anchor.BN(2)).rpc();
-    console.log("Your transaction signature", tx);
-  });
-
-  it("Should div", async () => {
-    const tx = await program.methods.div(new anchor.BN(2), new anchor.BN(2)).rpc();
-    console.log("Your transaction signature", tx);
-  });
-
-  it("Should modulo", async () => {
-    const tx = await program.methods.modulo(new anchor.BN(2), new anchor.BN(2)).rpc();
+    const tx = await program.methods.boatyMcBoatface().rpc();
     console.log("Your transaction signature", tx);
   });
 });
