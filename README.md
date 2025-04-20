@@ -20,6 +20,10 @@
 - we can use the IDL file to interact with our program from our frontend. as seen in the test. 
 - if struct have a #[derive(Accounts)] then it is an account. and any value with Signer<'info> is a signer and will get added to the accounts array in the IDL file. Still not sure about this.
 
+## Day 4
+- similar to error in solidity we have error in rust. 
+- when error happend the function will return instead of reverting. 
+- we also have require in rust like in solidity. 
 ## setup 
 
 Genrate a new keypair for the local validator
