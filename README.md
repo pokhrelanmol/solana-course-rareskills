@@ -24,6 +24,17 @@
 - similar to error in solidity we have error in rust. 
 - when error happend the function will return instead of reverting. 
 - we also have require in rust like in solidity. 
+
+## Day 5
+- solana program are upgradeable by default. 
+- when we deploy a program the program id is same 
+- signer can later make this program immutable. 
+
+## Day 6 
+- learn some rust vs solidity syntax differences
+- learn about structs and how to define them. 
+- learn about arrays and how to define them. 
+- for dynamic arrays we need to use Vec<T> 
 ## setup 
 
 Genrate a new keypair for the local validator
